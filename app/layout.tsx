@@ -8,10 +8,9 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Solaris Gaming - Professional Esports Organization",
+  title: "Solaris Gaming",
   description:
     "Professional esports organization competing at the highest level across multiple gaming titles. Join us as we rise to dominate the competitive gaming scene.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -21,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/solaris-logo.jpg" type="image/jpeg" />
+      </head>
       <body className={inter.className}>
         <Header />
         <main>{children}</main>
