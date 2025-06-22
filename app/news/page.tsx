@@ -5,10 +5,10 @@ import { Calendar, User } from "lucide-react"
 export default function NewsPage() {
   const news = [
     {
-      title: "Solaris Valorant Team Wins VCT Champions 2024",
+      title: "Solaris Mobile Legends Team Wins M6 World Championship",
       excerpt:
-        "Our Valorant roster dominated the competition, securing their first major championship title in a thrilling 3-1 victory.",
-      date: "2024-01-15",
+        "Our Mobile Legends roster made history by claiming the M6 World Championship title in a spectacular 4-2 victory, bringing home the ultimate prize in mobile esports.",
+      date: "2026-12-03",
       author: "Solaris Media",
       category: "Tournament",
       featured: true,
